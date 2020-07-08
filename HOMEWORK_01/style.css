@@ -1,0 +1,21 @@
+/* Bài 6*/
+
+.bai6_tieude {
+    color: orange;
+    font-size: 20px;
+    border-style: double;
+    margin-top: 15px;
+}
+
+
+/* Hết Bài 6*/
+
+
+/* Bài 7 */
+
+.bai7_tieude {
+    color: palevioletred;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0px;
+}
