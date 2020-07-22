@@ -1,0 +1,417 @@
+                        body {
+                            background: white;
+                            margin: 0px auto;
+                        }
+                        
+                        h1 {
+                            color: white;
+                        }
+                        
+                        .header {
+                            size: 15px;
+                            display: flex;
+                            justify-content: space-between;
+                            background-color: rgb(127, 216, 243);
+                        }
+                        
+                        .logo {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            align-items: center;
+                            font-size: 15px;
+                            margin-top: 50px;
+                            margin-bottom: 4px;
+                            margin-right: 70px;
+                        }
+                        
+                        .logo p {
+                            color: whitesmoke;
+                        }
+                        
+                        .Menu1 {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            font-size: 18px;
+                            color: whitesmoke;
+                        }
+                        
+                        .Menu1 ul {
+                            list-style-type: none;
+                            justify-content: space-around;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            color: whitesmoke;
+                            padding-top: 20px;
+                        }
+                        
+                        .Menu1 ul li a {
+                            text-decoration: none;
+                            border-right: 1px solid white;
+                            color: white;
+                            padding: 0 10px;
+                        }
+                        
+                        .Menu2 {
+                            background-color: darkblue;
+                            display: flex;
+                            font-size: 18px;
+                        }
+                        
+                        .Menu2 ul {
+                            margin: 25px;
+                            padding: 0px;
+                        }
+                        
+                        .Menu2 ul li {
+                            list-style: none;
+                        }
+                        
+                        .Menu2 ul li a {
+                            text-decoration: none;
+                            color: white;
+                            height: 25px;
+                            line-height: 25px;
+                            padding: 0px 80px 0px 80px;
+                            border-right: 1px solid white;
+                        }
+                        
+                        .link {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            font-size: 18px;
+                            border: 5px;
+                            padding-right: 60px;
+                            padding-top: 20px;
+                        }
+                        
+                        .link a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        
+                        .link1 {
+                            border: 2px solid white;
+                            border-radius: 5px;
+                            padding: 5px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            margin-right: 30px;
+                        }
+                        
+                        .link2 {
+                            border: 2px solid white;
+                            border-radius: 5px;
+                            padding: 5px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                        
+                        .hero {
+                            text-align: center;
+                            position: relative;
+                            margin-top: 50px;
+                            margin-left: 30px;
+                            margin-right: 30px;
+                        }
+                        
+                        .text1 {
+                            border-top: 1px solid white;
+                            font-size: 200%;
+                        }
+                        
+                        .text2 {
+                            border-bottom: 1px solid white;
+                            font-size: 150%;
+                        }
+                        
+                        .centered {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            color: whitesmoke;
+                            font-size: 40px;
+                        }
+                        
+                        .noidung {
+                            background-color: yellowgreen;
+                            display: flex;
+                            flex-direction: center;
+                            justify-content: center;
+                            color: white;
+                            font-weight: 10px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            margin-top: 30px;
+                            margin-left: 30px;
+                            margin-right: 30px;
+                        }
+                        
+                        .noidung1 {
+                            font-size: 60px;
+                            float: left;
+                        }
+                        
+                        .noidung2 {
+                            padding-left: 60px;
+                            width: 60%;
+                            text-align: justify;
+                            font-size: 20px;
+                            padding-top: 4%;
+                            float: left;
+                        }
+                        
+                        .block123 {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            margin-left: 30px;
+                            margin-right: 30px;
+                            margin-top: 30px;
+                            justify-content: space-around;
+                            align-items: stretch;
+                        }
+                        
+                        .block456 {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            margin-left: 30px;
+                            margin-right: 30px;
+                            margin-top: 30px;
+                            justify-content: space-around;
+                            align-items: stretch;
+                        }
+                        
+                        .block1 {
+                            background-color: whitesmoke;
+                            width: 35%;
+                            margin-right: 5%;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            padding-bottom: 60px;
+                        }
+                        
+                        .block1 a {
+                            text-decoration: none;
+                            color: blue;
+                        }
+                        
+                        .block2 {
+                            background-color: whitesmoke;
+                            width: 35%;
+                            margin-right: 5%;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            padding-bottom: 60px;
+                        }
+                        
+                        .block2 a {
+                            text-decoration: none;
+                            color: blue;
+                        }
+                        
+                        .block3 {
+                            background-color: whitesmoke;
+                            width: 35%;
+                            margin-right: 5%;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            padding-bottom: 60px;
+                        }
+                        
+                        .block3 a {
+                            text-decoration: none;
+                            color: blue;
+                        }
+                        
+                        .block4 {
+                            background-color: violet;
+                            width: 30%;
+                            margin-right: 5%;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                        }
+                        
+                        .block4 a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .block5 {
+                            background-color: rgb(60, 121, 211);
+                            width: 30%;
+                            margin-right: 10%;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                        }
+                        
+                        .block5 a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .block6 {
+                            background-color: white;
+                            width: 30%;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                        }
+                        
+                        .block456,
+                        .block4 p,
+                        .block5 p {
+                            color: white;
+                            font-size: 30px;
+                        }
+                        
+                        .text {
+                            color: greenyellow;
+                            border: 2px solid whitesmoke;
+                            font-size: 30px;
+                            text-align: center;
+                            width: fit-content;
+                            padding: 10px;
+                        }
+                        
+                        .text-box {
+                            color: blue;
+                            font-size: 20px;
+                            width: fit-content;
+                            margin-left: 30px;
+                        }
+                        
+                        .text1 {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: flex-start;
+                            align-content: center;
+                            align-items: center;
+                        }
+                        
+                        .text2 {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: flex-start;
+                            align-content: center;
+                            align-items: center;
+                        }
+                        
+                        .contact {
+                            margin-left: 30px;
+                            margin-right: 30px;
+                            margin-top: 70px;
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: space-between;
+                            align-items: stretch;
+                            align-content: stretch;
+                        }
+                        
+                        .button-contact1,
+                        .button-contact2,
+                        .button-contact3,
+                        .button-contact4 {
+                            width: 22%;
+                            margin-right: 4%;
+                            color: rgb(60, 121, 211);
+                            background-color: white;
+                            border: 2px solid rgb(60, 121, 211);
+                            border-radius: 5px;
+                            text-align: center;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            text-decoration: none;
+                        }
+                        
+                        footer {
+                            background-color: rgb(75, 72, 72);
+                            margin-top: 70px;
+                            margin-left: 30px;
+                            margin-right: 30px;
+                            padding-top: 30px;
+                            padding-bottom: 300px;
+                        }
+                        
+                        .full-nav {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: space-between;
+                            align-items: stretch;
+                            align-content: stretch;
+                        }
+                        
+                        .box1 ul li,
+                        .box2 ul li,
+                        .box3 ul li,
+                        .box4 ul li,
+                        .box5 ul li,
+                        .box6 ul li,
+                        .box7 ul li {
+                            display: flex;
+                            list-style-type: none;
+                            color: gray;
+                            padding-left: 0px;
+                            margin-left: -40px;
+                        }
+                        
+                        .box1 ul li a,
+                        .box2 ul li a,
+                        .box3 ul li a,
+                        .box4 ul li a,
+                        .box5 ul li a,
+                        .box6 ul li a,
+                        .box7 ul li a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .box1 h3 a,
+                        .box2 h3 a,
+                        .box3 h3 a,
+                        .box4 h3 a,
+                        .box5 h3 a,
+                        .box6 h3 a,
+                        .box7 h3 a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                        
+                        .row1,
+                        .row2,
+                        .row3,
+                        .box7 {
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            justify-content: flex-start;
+                            align-items: stretch;
+                            align-content: stretch;
+                            border: 1px solid red;
+                            padding-left: 50px;
+                            padding-right: 50px;
+                        }
+                        
+                        hr {
+                            padding-left: 30px;
+                            padding-right: 30px;
+                        }
+                        
+                        .last-text {
+                            text-align: center;
+                            color: white;
+                            margin-left: 60px;
+                            margin-right: 60px;
+                            background-color: rgb(75, 72, 72);
+                            border: 1px solid red;
+                            margin-top: 50px;
+                            border-top: 1px solid whitesmoke;
+                            padding-top: 50px;
+                        }

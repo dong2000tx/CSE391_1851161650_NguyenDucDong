@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Tạo form và các điều khiển </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="1.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font-awesome.css">
+    <link rel="stylesheet" href="1.css">
+    <style>
+        <style>td {
+            color: green;
+        }
+        
+        input.formtren {
+            width: 80%;
+            margin: 2px 2px;
+        }
+    </style>
+
+    </style>
+</head>
+
+
+<body>
+    <table border="1" style="border-collapse: collapse; width: 600px; height: 200px;background-color: #E0F9D9; margin: 0 auto;" align="center">
+        <h1 align="center" style="color: green; padding: 10px 0px;">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" id="tao" class="formtren"> </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" id="tao1" class="formtren"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" id="tao2" class="formtren"></td>
+        </tr>
+        <tr>
+            <td>Phái</td>
+            <td><input type="radio" id="tao3" name="gioitinh" checked="checked"> Nam
+                <input type="radio" id="tao4" name="gioitinh">Nữ</td>
+        </tr>
+        <tr>
+            <td> Nghề nghiệp</td>
+            <td>
+                <select>
+                    <option>Bác sĩ</option>
+                    <option>Kỹ sư</option>
+                    <option>Giáo viên</option>
+                    <option>Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn sản phẩm tham gia</td>
+            <td>
+                <select multiple="multiple">
+                    <option selected="selected">Kem đánh răng</option>
+                    <option>Bột giặt</option>
+                    <option selected="selected">Dầu gội đầu</option>
+                    <option>Sữa tắm</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Số người dự đoán tham gia</td>
+            <td><input type="text>" id="tao5" class="formtren"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input type="button" value="Đồng ý" onclick="kiemtra()" /></td>
+        </tr>
+    </table>
+
+    <script>
+        // When the user clicks on <div>, open the popup
+        function kiemtra() {
+            var s = document.getElementById("tao").value;
+            alert(s);
+        }
+    </script>
+</body>
+
+</html>

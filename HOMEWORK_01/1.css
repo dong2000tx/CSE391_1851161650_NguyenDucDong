@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*bài 8*/
+
+.bai8_tieudebang {
+    background-color: #CC6600;
+    color: #FFFFFF;
+}
+
+.bai8_hangle {
+    background-color: #FFFFFF;
+}
+
+
+/*hết bài 8*/
+
+
+/*bài 9*/
+
+.bai9_tieude {
+    color: #C41F40;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.bai9_toptable {
+    color: white;
+    background-color: #C41F40;
+    text-align: center;
+}
+
+.bai9_bottomtable {
+    color: #C41F40;
+    text-align: center;
+}
+
+
+/*hết bài 9*/
