@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://kit.fontawesome.com/6b89de4907.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Personal Information</h2>
+                <hr>
+                <div class="jumbotron">
+                    <h4>Please fill in your personal data here!</h4>
+                </div>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td>Your name<i class="fas fa-star-of-life"></i></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Age<i class="fas fa-star-of-life"></i></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Address<i class="fas fa-star-of-life"></i></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Zip<i class="fas fa-star-of-life"></i></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>City<i class="fas fa-star-of-life"></i></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>Your Application</h2>
+                <hr>
+                <div class="jumbotron">
+                    <h4>Please enter your application data here!</h4>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <td>Select a job<i class="fas fa-star-of-life"></i></td>
+                                <td>
+                                    <div class="form-group">
+
+                                        <select class="custom-select">
+                                            <option value="none">-Please choose-</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Job type<i class="fas fa-star-of-life"></i></td>
+                                <td>
+                                    <input type="radio" name="Job" id="" value="Full time">Fulltime <br>
+                                    <input type="radio" name="Job" id="" value="Part time">Parttime <br>
+                                    <input type="radio" name="Job" id="" value="Less 3 days a week">Less 3 days a week <br>
+                                    <input type="radio" name="Job" id="" value="1 day a week">1 day a week
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Employment date<i class="fas fa-star-of-life"></i></td>
+                                <td>
+                                    <input type="datetime" name="" id="">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fas fa-question-circle"></i>CV Files
+                                </td>
+                                <td>
+                                    <div class="circle-up"><i class="far fa-arrow-alt-circle-up"></i></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <h2>Contact Data</h2>
+        <hr>
+        <div class="col-md-12">
+            <table class="table table-hover">
+                <tbody>
+                    <tr>
+                        <td>Phone<i class="fas fa-star-of-life"></i></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Email<i class="fas fa-star-of-life"></i></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2>Security</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="">Security</label>
+            </div>
+            <div class="col-md-8">
+                <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S"></div>
+            </div>
+        </div>
+        <hr>
+        <button class="submit">SUBMIT</button>
+    </div>
+
+</body>
+
+</html>
